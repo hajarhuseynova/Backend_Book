@@ -26,4 +26,8 @@
     <ProjectReference Include="..\Book.Service\Book.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\images\" />
+  </ItemGroup>
+
 </Project>

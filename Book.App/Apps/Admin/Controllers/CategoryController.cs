@@ -4,8 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Book.App.Admin.Controllers
 {
-   
-
         [ApiController]
         [Route("api/admin/[controller]")]
         [ApiExplorerSettings(GroupName = "admin_v1")]

@@ -16,7 +16,7 @@ namespace Book.Data.Repositories.Implementations
 
         public CategoryRepository(BookDbContext context) : base(context)
         {
-            _context = context;
+
         }
     }
 }

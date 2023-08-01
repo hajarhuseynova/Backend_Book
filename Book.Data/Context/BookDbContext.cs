@@ -1,4 +1,5 @@
 ﻿using Book.Core.Entities;
+using Book.Data.Configurations;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -15,14 +16,14 @@ namespace Book.Data.Context
 
         }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Books> Books { get; set; } 
+        public DbSet<Books> Books { get; set; }
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.ApplyConfiguration(new CategoryConfiguration());
-        //    modelBuilder.ApplyConfiguration(new BookConfiguration());
-        //    base.OnModelCreating(modelBuilder);
-        //}
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new CategoryConfiguration());
+          
+            base.OnModelCreating(modelBuilder);
+        }
 
 
     }

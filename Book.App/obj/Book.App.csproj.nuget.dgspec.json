@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\99455\\Desktop\\Book.App\\Book.App.csproj": {}
+    "C:\\Users\\99455\\Desktop\\BookProject\\Book.App\\Book.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\99455\\Desktop\\Book.App\\Book.App.csproj": {
+    "C:\\Users\\99455\\Desktop\\BookProject\\Book.App\\Book.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99455\\Desktop\\Book.App\\Book.App.csproj",
+        "projectUniqueName": "C:\\Users\\99455\\Desktop\\BookProject\\Book.App\\Book.App.csproj",
         "projectName": "Book.App",
-        "projectPath": "C:\\Users\\99455\\Desktop\\Book.App\\Book.App.csproj",
+        "projectPath": "C:\\Users\\99455\\Desktop\\BookProject\\Book.App\\Book.App.csproj",
         "packagesPath": "C:\\Users\\99455\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99455\\Desktop\\Book.App\\obj\\",
+        "outputPath": "C:\\Users\\99455\\Desktop\\BookProject\\Book.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\99455\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\99455\\Desktop\\Book.Service\\Book.Service.csproj": {
-                "projectPath": "C:\\Users\\99455\\Desktop\\Book.Service\\Book.Service.csproj"
+              "C:\\Users\\99455\\Desktop\\BookProject\\Book.Service\\Book.Service.csproj": {
+                "projectPath": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Service\\Book.Service.csproj"
               }
             }
           }
@@ -44,6 +44,30 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -60,7 +84,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -85,14 +109,14 @@
         }
       }
     },
-    "C:\\Users\\99455\\Desktop\\Book.Core\\Book.Core.csproj": {
+    "C:\\Users\\99455\\Desktop\\BookProject\\Book.Core\\Book.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99455\\Desktop\\Book.Core\\Book.Core.csproj",
+        "projectUniqueName": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Core\\Book.Core.csproj",
         "projectName": "Book.Core",
-        "projectPath": "C:\\Users\\99455\\Desktop\\Book.Core\\Book.Core.csproj",
+        "projectPath": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Core\\Book.Core.csproj",
         "packagesPath": "C:\\Users\\99455\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99455\\Desktop\\Book.Core\\obj\\",
+        "outputPath": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\99455\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,6 +145,30 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -155,14 +203,14 @@
         }
       }
     },
-    "C:\\Users\\99455\\Desktop\\Book.Data\\Book.Data.csproj": {
+    "C:\\Users\\99455\\Desktop\\BookProject\\Book.Data\\Book.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99455\\Desktop\\Book.Data\\Book.Data.csproj",
+        "projectUniqueName": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Data\\Book.Data.csproj",
         "projectName": "Book.Data",
-        "projectPath": "C:\\Users\\99455\\Desktop\\Book.Data\\Book.Data.csproj",
+        "projectPath": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Data\\Book.Data.csproj",
         "packagesPath": "C:\\Users\\99455\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99455\\Desktop\\Book.Data\\obj\\",
+        "outputPath": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\99455\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -179,8 +227,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\99455\\Desktop\\Book.Core\\Book.Core.csproj": {
-                "projectPath": "C:\\Users\\99455\\Desktop\\Book.Core\\Book.Core.csproj"
+              "C:\\Users\\99455\\Desktop\\BookProject\\Book.Core\\Book.Core.csproj": {
+                "projectPath": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Core\\Book.Core.csproj"
               }
             }
           }
@@ -195,6 +243,30 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -229,14 +301,14 @@
         }
       }
     },
-    "C:\\Users\\99455\\Desktop\\Book.Service\\Book.Service.csproj": {
+    "C:\\Users\\99455\\Desktop\\BookProject\\Book.Service\\Book.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99455\\Desktop\\Book.Service\\Book.Service.csproj",
+        "projectUniqueName": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Service\\Book.Service.csproj",
         "projectName": "Book.Service",
-        "projectPath": "C:\\Users\\99455\\Desktop\\Book.Service\\Book.Service.csproj",
+        "projectPath": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Service\\Book.Service.csproj",
         "packagesPath": "C:\\Users\\99455\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99455\\Desktop\\Book.Service\\obj\\",
+        "outputPath": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\99455\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -253,8 +325,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\99455\\Desktop\\Book.Data\\Book.Data.csproj": {
-                "projectPath": "C:\\Users\\99455\\Desktop\\Book.Data\\Book.Data.csproj"
+              "C:\\Users\\99455\\Desktop\\BookProject\\Book.Data\\Book.Data.csproj": {
+                "projectPath": "C:\\Users\\99455\\Desktop\\BookProject\\Book.Data\\Book.Data.csproj"
               }
             }
           }
@@ -269,6 +341,30 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.16, )"

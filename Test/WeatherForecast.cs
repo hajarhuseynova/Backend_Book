@@ -1,4 +1,4 @@
-namespace Book.App
+namespace Test
 {
     public class WeatherForecast
     {

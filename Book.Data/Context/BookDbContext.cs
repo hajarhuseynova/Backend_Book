@@ -21,7 +21,8 @@ namespace Book.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
-          
+            modelBuilder.ApplyConfiguration(new BookConfiguration());
+
             base.OnModelCreating(modelBuilder);
         }
 

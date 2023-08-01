@@ -31,8 +31,14 @@ builder.Services.AddCors(o => o.AddPolicy("P136", builder =>
 builder.Services.AddControllers().AddFluentValidation(fvc => fvc.RegisterValidatorsFromAssemblyContaining<CategoryPostDtoValidation>());
 
 builder.Services.AddAutoMapper(typeof(CategoryProfile));
+
+
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IBookService, BookService>();
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -54,6 +60,7 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 
+
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -65,6 +72,7 @@ if (app.Environment.IsDevelopment())
         options.SwaggerEndpoint($"/swagger/client_v1/swagger.json", "client_v1");
     });
 }
+
 
 app.UseStaticFiles();
 app.UseHttpsRedirection();

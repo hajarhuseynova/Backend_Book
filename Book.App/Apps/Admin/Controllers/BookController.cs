@@ -44,7 +44,7 @@ namespace Book.App.Admin.Controllers
             return StatusCode(result.StatusCode);
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] BookUpdateDto dto)
+        public async Task<IActionResult> Update(int id, [FromForm] BookUpdateDto dto)
         {
             var result = await _BookService.UpdateAsync(id, dto);
             return StatusCode(result.StatusCode, result);

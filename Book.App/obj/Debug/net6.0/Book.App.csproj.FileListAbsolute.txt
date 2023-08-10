@@ -1,5 +1,6 @@
 C:\Users\99455\Desktop\BookProject\Book.App\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\99455\Desktop\BookProject\Book.App\bin\Debug\net6.0\appsettings.json
+C:\Users\99455\Desktop\BookProject\Book.App\bin\Debug\net6.0\Book.App.staticwebassets.runtime.json
 C:\Users\99455\Desktop\BookProject\Book.App\bin\Debug\net6.0\Book.App.exe
 C:\Users\99455\Desktop\BookProject\Book.App\bin\Debug\net6.0\Book.App.deps.json
 C:\Users\99455\Desktop\BookProject\Book.App\bin\Debug\net6.0\Book.App.runtimeconfig.json
@@ -73,4 +74,3 @@ C:\Users\99455\Desktop\BookProject\Book.App\obj\Debug\net6.0\refint\Book.App.dll
 C:\Users\99455\Desktop\BookProject\Book.App\obj\Debug\net6.0\Book.App.pdb
 C:\Users\99455\Desktop\BookProject\Book.App\obj\Debug\net6.0\Book.App.genruntimeconfig.cache
 C:\Users\99455\Desktop\BookProject\Book.App\obj\Debug\net6.0\ref\Book.App.dll
-C:\Users\99455\Desktop\BookProject\Book.App\bin\Debug\net6.0\Book.App.staticwebassets.runtime.json

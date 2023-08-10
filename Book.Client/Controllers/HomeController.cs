@@ -1,8 +1,8 @@
-﻿using Book.Client.Models;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Book.Client.Controllers
+namespace ApiIntro.Client.Controllers
 {
     public class HomeController : Controller
     {
@@ -18,8 +18,11 @@ namespace Book.Client.Controllers
             return View();
         }
 
-   
+        public IActionResult Privacy()
+        {
+            return View();
+        }
 
-      
+        
     }
 }

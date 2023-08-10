@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cXcNjLr4LqJ/+IxKmkJt4m4aQC8o7GeYDeU91CoAZMc=",
+  "Hash": "sAqxJm0zJpOIelfANdnx+jgJ/811h6eG2Oa1MLFyYtE=",
   "Source": "Book.App",
   "BasePath": "_content/Book.App",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\02524639-2765-40d3-a8c9-c828c9b37256rafa.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\99455\\Desktop\\BookProject\\Book.App\\wwwroot\\assets\\images\\4c209d71-53dc-491b-8d81-44856a39d24filkin.jpg",
+      "SourceId": "Book.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\99455\\Desktop\\BookProject\\Book.App\\wwwroot\\",
+      "BasePath": "_content/Book.App",
+      "RelativePath": "assets/images/4c209d71-53dc-491b-8d81-44856a39d24filkin.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\4c209d71-53dc-491b-8d81-44856a39d24filkin.jpg"
     },
     {
       "Identity": "C:\\Users\\99455\\Desktop\\BookProject\\Book.App\\wwwroot\\assets\\images\\975eb6eb-1e93-4e8d-a977-158477bbc64brafa.jpg",
